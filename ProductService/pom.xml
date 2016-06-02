@@ -87,4 +87,5 @@
 	      </releases>
    	 </pluginRepository>
     </pluginRepositories>
+    <artifactId>ProductService</artifactId>
 </project>
