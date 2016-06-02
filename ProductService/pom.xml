@@ -48,11 +48,11 @@
 
 
     <build>
-    	 <sourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\main\java</sourceDirectory>
+    	<!--  <sourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\main\java</sourceDirectory>
    		 <scriptSourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\main\scripts</scriptSourceDirectory>
     	<testSourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\test\java</testSourceDirectory>
    		 <outputDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\target\classes</outputDirectory>
-   		 <testOutputDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\target\test-classes</testOutputDirectory>
+   		 <testOutputDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\target\test-classes</testOutputDirectory> -->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -87,5 +87,5 @@
 	      </releases>
    	 </pluginRepository>
     </pluginRepositories>
-    <artifactId>ProductService</artifactId>
+    <!--  <artifactId>ProductService</artifactId>--> 
 </project>
