@@ -48,7 +48,7 @@
 
 
     <build>
-    	 <sourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src</sourceDirectory>
+    	 <sourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\main\java</sourceDirectory>
    		 <scriptSourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\main\scripts</scriptSourceDirectory>
     	<testSourceDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\src\test\java</testSourceDirectory>
    		 <outputDirectory>D:\Hari\Hari\TCG\MicroServices\GITRepo\ProductService\ProductService\target\classes</outputDirectory>
