@@ -1,7 +1,6 @@
 package com.cognizant.microservices.demo.product.service;
 
 import java.net.UnknownHostException;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,7 +22,6 @@ import com.mongodb.MongoClient;
 public class ProductController {
 
 	private final static Logger LOGGER = Logger.getLogger(ProductController.class.getName()); 
-    private final AtomicLong counter = new AtomicLong();
     private final static String CLASSNAME="ProductController" ;
 
     
