@@ -37,11 +37,11 @@ public class MongoDBUtil {
 		
 		if(variableMap==null){
 			variableMap=new HashMap<String,String>();
-			variableMap.put(MONGODB_SERVER_NAME, System.getProperty(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getProperty(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getProperty(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getProperty(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getProperty(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
 		}
 		
 		
