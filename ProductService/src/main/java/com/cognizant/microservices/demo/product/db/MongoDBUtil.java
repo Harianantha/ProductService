@@ -13,11 +13,11 @@ public class MongoDBUtil {
 	
 	private static Map<String,String> variableMap=null;
 	
-	private static String MONGODB_SERVER_NAME="MONGODB_SERVER_NAME";
-	private static String MONGODB_SERVER_PORT="MONGODB_SERVER_PORT";
-	private static String MONGODB_DB_NAME="MONGODB_DB_NAME";
-	private static String MONGODB_DB_USERNAME="MONGODB_DB_USERNAME";
-	private static String MONGODB_DB_PASSWORD="MONGODB_DB_PASSWORD";
+	public static String MONGODB_SERVER_NAME="MONGODB_SERVER_NAME";
+	public static String MONGODB_SERVER_PORT="MONGODB_SERVER_PORT";
+	public static String MONGODB_DB_NAME="MONGODB_DB_NAME";
+	public static String MONGODB_DB_USERNAME="MONGODB_DB_USERNAME";
+	public static String MONGODB_DB_PASSWORD="MONGODB_DB_PASSWORD";
 	
 	public static MongoClient getMongoDBClient() throws UnknownHostException{
 		MongoClient mongoClient=null;
@@ -38,10 +38,10 @@ public class MongoDBUtil {
 		if(variableMap==null){
 			variableMap=new HashMap<String,String>();
 			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
-			variableMap.put(MONGODB_SERVER_NAME, System.getenv(MONGODB_SERVER_NAME)) ;
+			variableMap.put(MONGODB_SERVER_PORT, System.getenv(MONGODB_SERVER_PORT)) ;
+			variableMap.put(MONGODB_DB_NAME, System.getenv(MONGODB_DB_NAME)) ;
+			variableMap.put(MONGODB_DB_USERNAME, System.getenv(MONGODB_DB_USERNAME)) ;
+			variableMap.put(MONGODB_DB_PASSWORD, System.getenv(MONGODB_DB_PASSWORD)) ;
 		}
 		
 		

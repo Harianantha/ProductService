@@ -66,7 +66,7 @@ private String getCatentryFromMongo(long id) {
 		mongoClient = MongoDBUtil.getMongoDBClient();
 	
 	//DB db = mongoClient.getDB( "test" );	
-		DB db = mongoClient.getDB( "samplecommerce" );
+		DB db = mongoClient.getDB( System.getenv(MongoDBUtil.MONGODB_DB_NAME) );
 	
 	BasicDBObject fields = null;
 	DBCollection collection=db.getCollection("CATENTRY");
